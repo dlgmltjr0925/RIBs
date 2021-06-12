@@ -10,8 +10,7 @@ import com.uber.rib.core.ViewRouter;
  *
  * TODO describe the possible child configurations of this scope.
  */
-public class ${rib_name}Router extends
-    ViewRouter<${rib_name}View, ${rib_name}Interactor, ${rib_name}Builder.Component> {
+public class ${rib_name}Router extends ViewRouter<${rib_name}View, ${rib_name}Interactor> {
 
   public ${rib_name}Router(
       ${rib_name}View view,
